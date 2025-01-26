@@ -1,6 +1,24 @@
-body{
+body#index{
     height: 800px;
     width: 360px;
+    margin: 0;
+}
+
+
+#top-bar {
+    display: flex;
+    color: #E0E2E8;
+    background-color: #E0E2E8;
+    justify-content: space-between;
+}
+
+
+
+
+body#login{
+    height: 800px;
+    width: 360px;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
