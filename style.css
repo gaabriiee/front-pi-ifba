@@ -1,15 +1,52 @@
-body#index{
+* {
+    font-family: roboto;
+}
+
+.carrousel {
+    display: flex;
+    justify-content: space-around;
+}
+
+.loja {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+.loja a{
+    margin-top: 8px;
+    margin-left: 4px;
+}
+
+
+#populares p {
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+#populares img {
+    border-radius: 28px;
+    margin-left: 28px;
+}
+
+body {
     height: 800px;
     width: 360px;
     margin: 0;
 }
 
+.botoes{
+    background-color: #E0E2E8;
+    display: flex;
+    justify-content: space-evenly;
+}
 
 #top-bar {
     display: flex;
     color: #E0E2E8;
     background-color: #E0E2E8;
     justify-content: space-between;
+    margin-bottom: 10px;
 }
 
 
@@ -57,4 +94,10 @@ body#login{
     color: #2C638B;
     text-decoration: none;
     margin-top: 20px;
+}
+
+#registro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
