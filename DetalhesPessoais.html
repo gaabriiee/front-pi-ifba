@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DetalhesPessoais</title>
+    <link rel="stylesheet" href="DetalhesPessoais.css">
+</head>
+<body>
+    <div class="Main">
+        <h1>EDITAR DETALHES PESSOAIS</h1>
+        <div class="alteracoes">
+            <input type="text" placeholder="Nome Completo"   name="" id="input-texto" required>
+            <input type="email" placeholder="E-mail" name="uname" id="input-email" required>
+            <input type="datetime-local" placeholder="Data de Nascimento" name="" id="input-data" required>
+        </div>
+
+        <div class="opcoes">
+            <input type="radio" name="opcao" value="">Masculino
+            <input type="radio" name="opcao" value="">Feminino
+        </div>
+
+        <div class="botoes">
+            <button type="submit" onclick="window.location.href='PerfilCliente.html'">
+                <img src="./resources/Salvar.png" alt="" class="botao">
+            </button>
+    
+            <button>
+                <a href="PerfilCliente.html">
+                    <img src="./resources/Cancelar.png" alt="" class="botao">
+                </a>
+            </button>
+
+        </div>
+    </div>
+</body>
+</html>
