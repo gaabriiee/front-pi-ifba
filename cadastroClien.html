@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro Cliente</title>
+</head>
+<body id="">
+    <div id="top-bar">
+        <div class="imgseta">
+            <a href="./login.html">
+                <img  src="./resources/arrow-back-icon.svg" alt="arrow-back-icon" width="24" height="24">
+            </a>
+        </div>
+    </div>
+
+    <div >
+        <h2>Cadastro Cliente</h2>
+
+        <div class="imgcadastro">
+            <img  src="./resources/ic_cliente 1.png" alt="">
+        </div>
+
+        <div class="botão-entrar-com">
+            <button class="bec">Entre com Google</button>
+            <button class="bec">Entre com ICloud</button>
+        </div>
+        
+        <div class="form-container">
+            <form>
+                <input class="input" type="text" id="nome" name="nome" placeholder="Digite seu nome" required><br>
+                <input class="input" type="date" id="data" name="data" placeholder="Digite sua data de nascimento" required><br>
+                <div>
+                    <div class="genero">
+                        <input type="radio" id="masculino" name="genero" value="Masculino">
+                        <label for="masculino" class="btn">Masculino</label>
+                
+                        <input type="radio" id="feminino" name="genero" value="Feminino">
+                        <label for="feminino" class="btn">Feminino</label>
+                    </div>
+                </div><br>
+        
+                <input class="input" type="email" id="email" name="email" placeholder="Digite seu e-mail" required><br>
+        
+                <input class="input" type="password" id="senha" name="senha" placeholder="Digite sua senha" required><br>
+        
+                <input class="input" type="password" id="confirma_senha" name="confirma_senha" placeholder="Confirme sua senha" required><br>
+                <div class="botãoCadas">
+                    <button class="bt-cadastro" type="submit">Cadastrar</button>
+                </div>
+                
+            </form>        
+        </div>
+    </div>
+
+
+</body>
+</html>
