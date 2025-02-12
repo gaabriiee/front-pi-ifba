@@ -49,7 +49,16 @@ body {
     margin-bottom: 10px;
 }
 
-
+.imgseta{
+    margin: 10px;
+}
+#top-bar2 {
+    display: flex;
+    color: #E0E2E8;
+    background-color: #E0E2E8;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
 
 
 body#login{
@@ -100,4 +109,72 @@ body#login{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+h2 {
+    margin-left: 20px;
+}
+.imgcadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botão-entrar-com{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20;
+}
+.bec{
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #1a73e8;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: white;
+    color: #1a73e8;
+    transition: all 0.3s ease-in-out;
+    min-width: 160px;
+    text-align: center;
+}
+.bec:hover{
+    background-color: #1a73e8;
+    color: white;
+}
+.form-container{
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.input{
+    width: 98%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.genero{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 10px 0;
+}
+.botãoCadas{
+    display: flex;
+    justify-content: center;
+}
+.bt-cadastro{
+    width: 90%;
+    padding: 10px;
+    background-color: #1a73e8;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
 }
